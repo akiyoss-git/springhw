@@ -11,5 +11,8 @@
         class="springhw.beans.HelloBean">
         <constructor-arg value="Spring - это интересно!"/>
     </bean>
+    <bean id="printerBean"
+          class="springhw.beans.PrinterBean" scope="singletone">
+    </bean>
 
 </beans>
